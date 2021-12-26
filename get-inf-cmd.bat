@@ -18,8 +18,17 @@ wmic os get Caption | findstr /v Caption >> C:Desktop\InfosDoPC-%COMPUTERNAME%.t
 echo Idioma: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
 wmic os get MUILanguages | findstr /v MUILanguages >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
 
+echo Processador: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+wmic cpu get name | findstr /v Name >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+
 echo Arquitetura: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
 wmic os get OSArchitecture | findstr /v OSArchitecture >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+
+echo Discos: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+wmic diskdrive get model,size >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+
+echo Memória: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
+wmic MEMORYCHIP get BankLabel, DeviceLocator, Capacity, Speed >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
 
 echo SerialNumber: >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
 wmic bios get serialnumber | findstr /v SerialNumber >> C:Desktop\InfosDoPC-%COMPUTERNAME%.txt
