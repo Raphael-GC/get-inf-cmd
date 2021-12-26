@@ -25,8 +25,8 @@
 </p>
 
 <p align="center">
-  <a href="# 🚀 Como ">Como executar</a> •
-  <a href="# 💬 Funcionalidades">Funcionalidades</a>
+  <a href="## 🚀 Como ">Como executar</a> •
+  <a href="## 💬 Funcionalidades">Funcionalidades</a>
 </p>
 
 ![](https://github.com/Raphael-GC/get-inf-cmd/blob/main/assets/preview.png)
@@ -48,7 +48,10 @@
       <li>Hostname</li>
       <li>Versão do Windows</li>
       <li>Idioma</li>
+      <li>Processador</li>
       <li>Arquitetura</li>
+      <li>Discos</li>
+      <li>Memória</li>
       <li>Serial Number</li>
       <li>Licença do Windows (ProductKey)</li>
     </ul>
