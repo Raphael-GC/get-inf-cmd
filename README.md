@@ -27,7 +27,7 @@
 <p align="center">
   <a href="#-como-executar">Como executar</a> •
   <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href=" #-como-contribuir">Como contribuir</a>
+  <a href="#-como-contribuir">Como contribuir</a>
 </p>
 
 ![](https://github.com/Raphael-GC/get-inf-cmd/blob/main/assets/preview.png)
